@@ -150,7 +150,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-color: grey;
+  background-image: url(/img/bcs-cityscape.jpg);
   text-align: center;
   color: white;
 }
@@ -350,4 +350,10 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+body.modal-open {
+  padding-right: 0px !important;
+}
+html {
+  overflow-y: auto !important;
 }
